@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-//sophie was here 
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -16,6 +15,7 @@ struct ContentView: View {
             Text("Hello, world!")
             Text("hiiii")
             Text("hi by ilayda")
+            Text("heyyyy sophie")
         }
         .padding()
     }
