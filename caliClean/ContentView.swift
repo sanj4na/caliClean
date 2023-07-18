@@ -6,20 +6,24 @@
 //
 
 import SwiftUI
-//sophie was here 
 struct ContentView: View {
     var body: some View {
+        let backgroundColor : Color = Color(red: 233/255, green: 245/255, blue: 219/255)
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("hiiii")
-            Text("hi by ilayda")
-            Text("heyyyy sophie is here")
-            Text("homepage")
+        
+            Text("CaliClean")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+            
+                
+    
+        
+
         }
-        .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .accentColor(Color.black)
+                .background(backgroundColor)
     }
 }
 
