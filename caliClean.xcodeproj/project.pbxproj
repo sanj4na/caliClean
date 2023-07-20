@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD519D6F2A69A1BC0023DC6F /* dataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD519D6E2A69A1BC0023DC6F /* dataModels.swift */; };
+		BD519D712A69A7900023DC6F /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD519D702A69A7900023DC6F /* AnnotationView.swift */; };
 		BDC6EBD62A672AD400BAE4C0 /* caliCleanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6EBD52A672AD400BAE4C0 /* caliCleanApp.swift */; };
 		BDC6EBD82A672AD400BAE4C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6EBD72A672AD400BAE4C0 /* ContentView.swift */; };
 		BDC6EBDA2A672AD500BAE4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC6EBD92A672AD500BAE4C0 /* Assets.xcassets */; };
@@ -15,10 +17,12 @@
 		BDECBCC22A6746D50044C73A /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBCC12A6746D50044C73A /* LocationView.swift */; };
 		BDECBCC42A6746ED0044C73A /* RecyclablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBCC32A6746ED0044C73A /* RecyclablesView.swift */; };
 		BDECBCC62A6747060044C73A /* HazardousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBCC52A6747060044C73A /* HazardousView.swift */; };
-		BDECBCC82A67476D0044C73A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECBCC72A67476D0044C73A /* ButtonView.swift */; };
+		BDF854222A6883B2002C2E75 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF854212A6883B2002C2E75 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD519D6E2A69A1BC0023DC6F /* dataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModels.swift; sourceTree = "<group>"; };
+		BD519D702A69A7900023DC6F /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		BDC6EBD22A672AD400BAE4C0 /* caliClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caliClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC6EBD52A672AD400BAE4C0 /* caliCleanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caliCleanApp.swift; sourceTree = "<group>"; };
 		BDC6EBD72A672AD400BAE4C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +32,7 @@
 		BDECBCC12A6746D50044C73A /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		BDECBCC32A6746ED0044C73A /* RecyclablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclablesView.swift; sourceTree = "<group>"; };
 		BDECBCC52A6747060044C73A /* HazardousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HazardousView.swift; sourceTree = "<group>"; };
-		BDECBCC72A67476D0044C73A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BDF854212A6883B2002C2E75 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +67,12 @@
 			children = (
 				BDC6EBD52A672AD400BAE4C0 /* caliCleanApp.swift */,
 				BDC6EBD72A672AD400BAE4C0 /* ContentView.swift */,
-				BDECBCC72A67476D0044C73A /* ButtonView.swift */,
+				BDF854212A6883B2002C2E75 /* AboutView.swift */,
+				BD519D6E2A69A1BC0023DC6F /* dataModels.swift */,
 				BDECBCC52A6747060044C73A /* HazardousView.swift */,
 				BDECBCC32A6746ED0044C73A /* RecyclablesView.swift */,
 				BDECBCC12A6746D50044C73A /* LocationView.swift */,
+				BD519D702A69A7900023DC6F /* AnnotationView.swift */,
 				BDECBCBF2A6746C20044C73A /* OrganicView.swift */,
 				BDC6EBD92A672AD500BAE4C0 /* Assets.xcassets */,
 				BDC6EBDB2A672AD500BAE4C0 /* Preview Content */,
@@ -153,12 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDECBCC42A6746ED0044C73A /* RecyclablesView.swift in Sources */,
+				BD519D712A69A7900023DC6F /* AnnotationView.swift in Sources */,
+				BD519D6F2A69A1BC0023DC6F /* dataModels.swift in Sources */,
+				BDF854222A6883B2002C2E75 /* AboutView.swift in Sources */,
 				BDC6EBD82A672AD400BAE4C0 /* ContentView.swift in Sources */,
 				BDECBCC62A6747060044C73A /* HazardousView.swift in Sources */,
 				BDECBCC22A6746D50044C73A /* LocationView.swift in Sources */,
 				BDC6EBD62A672AD400BAE4C0 /* caliCleanApp.swift in Sources */,
 				BDECBCC02A6746C20044C73A /* OrganicView.swift in Sources */,
-				BDECBCC82A67476D0044C73A /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
